@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "type": "pwa-chrome",
+      "name": "http://document.getelementbyId(\"e\")",
+      "request": "launch",
+      "url": "http://document.getelementbyId(\"e\")"
+    }
+  ]
+}

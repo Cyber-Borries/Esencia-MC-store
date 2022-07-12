@@ -1,0 +1,144 @@
+:root {
+  --darkGreen: #014527;
+  --Gold: #d4a95f;
+  --pFont: "Lato", sans-serif;
+}
+
+.cart-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid var(--darkGreen);
+  background-color: var(--Gold);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.cart-container h1 {
+  color: var(--darkGreen);
+  text-align: center;
+}
+
+.cart-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 15px;
+}
+
+.item-pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.item-pricing button {
+  margin: 5px;
+}
+
+.item {
+  text-align: center;
+}
+
+.item img {
+  height: 150px;
+  aspect-ratio: 1;
+}
+
+.quantity {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quantity .cart-btn {
+  width: 30px;
+  height: 30px;
+}
+
+.cart-price {
+  color: black;
+}
+
+input {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 1;
+}
+
+.total-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+.total-price h6 {
+  font-size: 20px;
+}
+
+.btn-plus,
+.btn-minus {
+  width: 25px;
+  height: 25px;
+  background-color: var(--darkGreen);
+  cursor: pointer;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.shopping-bag {
+  height: 15px;
+  aspect-ratio: 1;
+}
+
+.add-coupon {
+  background-color: var(--darkGreen);
+  color: var(--Gold);
+  font-family: var(--pFont);
+  border-radius: 16px;
+  padding: 5px;
+  margin-left: 25px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.coupon {
+  width: 150px;
+}
+
+.checkout {
+  cursor: pointer;
+  background-color: var(--darkGreen);
+  margin: 15px;
+  padding: 15px;
+  border-radius: 16px;
+  color: var(--Gold);
+  font-family: var(--pFont);
+}
+
+.choose_courier {
+  display: none;
+}
+
+.cart-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
